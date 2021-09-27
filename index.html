@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Landing Page</title>
+    <!--Link Fontawsome-->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/brands.min.css">
+    <link rel="stylesheet" href="css/solid.min.css">
+    <!--Link Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!--Link jQuery Plugins-->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Jquery Ui -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <!--Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!--Link Main CSS-->
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+
+    <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "209199683047757");
+      chatbox.setAttribute("attribution", "biz_inbox");
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+
+   
+
+
+
+    <!-- Start Header Area -->
+    <header id="header_area">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <!-- Logo -->
+                <div class="logo">
+                    <a class="navbar-brand" href="#header_area"> <img width="50" height="50" src="assets/img/logo/logo.png" alt=""> Apico</a>
+                </div>
+                <!-- Mobile Menu -->
+                <button data-bs-toggle="collapse" data-bs-target="#main_menu" class="navbar-toggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menu -->
+                <div id="main_menu" class="menu collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#header_area">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about_section">About</a></li>
+                        <li class="nav-item"><a class="dropdown-toggle nav-link" href="#features_section">Features</a>
+                        
+                            <!-- Dropdown Menu -->
+                            <ul class="dropdown-ul">
+                                <li><a class="dropdown-item" href="">Login Page 1</a></li>
+                                <li><a class="dropdown-item" href="">Login Page 2</a></li>
+                                <li><a class="dropdown-item" href="">Signup Page 1</a></li>
+                                <li><a class="dropdown-item" href="">Signup Page 2</a></li>
+                            </ul>
+                        
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#pricing_section">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Screenshots</a></li>
+                        <li class="nav-item dropdown-li dropdown-toggle"><a class="nav-link" href="#">Pages</a>
+                        
+                            <!-- Dropdown Menu -->
+                            <ul class="dropdown-ul">
+                                <li><a class="dropdown-item" href="">Login Page 1</a></li>
+                                <li><a class="dropdown-item" href="">Login Page 2</a></li>
+                                <li><a class="dropdown-item" href="">Signup Page 1</a></li>
+                                <li><a class="dropdown-item" href="">Signup Page 2</a></li>
+                            </ul>
+
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Start Hero Area -->
+    <section id="hero_area">
+        <div class="inner-hero-overlay">
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="col-md-7">
+                        <div class="hero-info">
+                            <div class="hero-text">
+                                <h1>Brainstorming for Desired Usability</h1>
+                                <p class="heading-bottom-main">Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
+                            </div>
+                            <div class="hero-download-btn mb-4 vertically-middle">
+                                <div class="google">
+                                    <a type="button" class="btn btn-dark btn-lg" href="#">
+                                        <i class="fab fa-google-play"></i> Google Play
+                                    </a>
+                                </div>
+                                <div class="apple">
+                                    <a type="button" class="btn btn-dark btn-lg" href="#">
+                                        <i class="fab fa-apple"></i> App Store
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="hero-newsletter">
+                                <form action="">
+                                    <div class="input-fild">
+                                        <input type="email" placeholder="info@yourdomain.com">
+                                        <input  type="submit" value="Subscribe">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="hero-video-popup d-flex align-items-center">
+                                <div class="play-icon">
+                                    <a class="video-popup-link" href="https://www.youtube.com/watch?v=IEVjZRlvA1s">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <span>Watch video Overview</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="hero-mobile-app">
+                            <img class="img-fluid" src="assets/img/mobile/hero-mobile-app.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+    </section>
+    <!-- End Hero Area -->
+
+    <!-- Start Counter Section -->
+    <section id="counter_section">
+        <div class="container">
+            <div class="counter-inner-bg">
+                <div class="row text-center d-flex align-items-center justify-content-center">
+                    <div class="col-lg-3">
+                        <div class="counter-box">
+                            <div class="counter-icon mb-3">
+                                <img src="assets/img/icon/happy.png" alt="">
+                            </div>
+                            <h3>2350</h3>
+                            <span>Happy Client</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="counter-box">
+                            <div class="counter-icon mb-3">
+                                <img src="assets/img/icon/download.png" alt="">
+                            </div>
+                            <h3>2350</h3>
+                            <span>App Download</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="counter-box">
+                            <div class="counter-icon mb-3">
+                                <img src="assets/img/icon/rating.png" alt="">
+                            </div>
+                            <h3>2350</h3>
+                            <span>Total Rates</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="counter-box">
+                            <div class="counter-icon mb-3">
+                                <img src="assets/img/icon/award.png" alt="">
+                            </div>
+                            <h3>2350</h3>
+                            <span>Awards Win</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Counter Section -->
+
+    <!-- Start Promo Section-->
+    <section id="functionality_section">
+        <div class="container">
+            <div class="row text-center justify-content-center mb-5">
+                <div class="col-lg-7">
+                    <h2 class="mb-3">Functionalities</h2>
+                    <p class="heading-bottom-white">Following reasons show advantages of adding AppCo to your lead pages, demos and checkouts evisculate interoperable imperatives rather.</p>
+                </div>
+            </div>
+            <div class="function-box">
+                <div class="row mb-4">
+                    <div class="col-lg-4 text-center">
+                        <div class="each-box">
+                            <div class="function-icon">
+                                <img src="assets/img/icon/layers.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Fully functional</h4>
+                                <p>Increase sales by showing true dynamics of your website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="each-box">
+                            <div class="function-icon">
+                                <img src="assets/img/icon/chat.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Live Chat</h4>
+                                <p>Increase sales by showing true dynamics of your website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="each-box">
+                            <div class="function-icon">
+                                <img src="assets/img/icon/lock.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Secure Data</h4>
+                                <p>Increase sales by showing true dynamics of your website.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <div class="each-box">
+                            <div class="function-icon">
+                                <img src="assets/img/icon/feature.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Easy to Customize</h4>
+                                <p>Increase sales by showing true dynamics of your website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="each-box">
+                            <div class="function-icon">
+                                <img src="assets/img/icon/responsive-design.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Responsive Design</h4>
+                                <p>Increase sales by showing true dynamics of your website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="each-box">
+                            <div class="function-icon">
+                                <img src="assets/img/icon/document.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Help Documentation</h4>
+                                <p>Increase sales by showing true dynamics of your website.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Functionalities Section-->
+
+    <!-- Start About Section -->
+    <section id="about_section">
+        <div class="about-inner-bg">
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-around">
+                    <div class="col-lg-7">
+                        <div class="about-info">
+                            <h2 class="mb-4">Easy To Manage Everything</h2>
+                        <div class="icon-list">
+                            <div class="each-icon-box mb-3 d-flex align-items-center justify-content-center">
+                                <div class="icon-box first">
+                                    <i class="fas fa-bullseye"></i>
+                                </div>
+                                <div class="icon-text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolor voluptas obcaecati est adipisci voluptatum exercitationem porro.</p>
+                                </div>
+                            </div>
+                            <div class="each-icon-box mb-3 d-flex align-items-center justify-content-center">
+                                <div class="icon-box">
+                                    <i class="fas fa-network-wired"></i>
+                                </div>
+                                <div class="icon-text">
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
+                                </div>
+                            </div>
+                            <div class="each-icon-box mb-3 d-flex align-items-center justify-content-center">
+                                <div class="icon-box third">
+                                    <i class="fas fa-bullhorn"></i>
+                                </div>
+                                <div class="icon-text">
+                                    <p>making publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
+                                </div>
+                            </div>
+                            <div class="each-icon-box mb-3 d-flex align-items-center justify-content-center">
+                                <div class="icon-box fourth">
+                                    <i class="fas fa-comments"></i>
+                                </div>
+                                <div class="icon-text">
+                                    <p>It is a long established fact that a reader will be distracted by the readable it has a more-or-less normal distribution of letters, as opposed to using</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="about-app-img">
+                            <img class="img-fluid" src="assets/img/mobile/about-mobile-app.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Start Features Section -->
+    <section id="productivity_section">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="assets/img/mobile/features-mobile-app.png" alt="">
+                </div>
+                
+
+
+
+
+                <div class="col-lg-7">
+                    <div class="productivity-info">
+                        <h2 class="mb-4">More productivity with less effort</h2>
+                    <div class="icon-list">
+                        <div class="each-icon-box mb-3 d-flex align-items-center justify-content-center">
+                            <div class="icon-box first">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div class="icon-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolor voluptas obcaecati est adipisci voluptatum exercitationem porro.</p>
+                            </div>
+                        </div>
+                        <div class="each-icon-box mb-3 d-flex align-items-center justify-content-center">
+                            <div class="icon-box">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <div class="icon-text">
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
+                            </div>
+                        </div>
+                        <div class="each-icon-box mb-3 d-flex align-items-center justify-content-center">
+                            <div class="icon-box third">
+                                <i class="fas fa-bullhorn"></i>
+                            </div>
+                            <div class="icon-text">
+                                <p>making publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
+                            </div>
+                        </div>
+                        <div class="each-icon-box mb-3 d-flex align-items-center justify-content-center">
+                            <div class="icon-box fourth">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="icon-text">
+                                <p>It is a long established fact that a reader will be distracted by the readable it has a more-or-less normal distribution of letters, as opposed to using</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Features Section -->
+
+    <!-- Start Download Section -->
+    <section id="download_section">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-lg-7">
+                    <div class="download-info">
+                        <h2 class="mb-3">Download Our App</h2>
+                        <p class="heading-bottom-main">Objectively deliver professional value with diverse web-readiness. Collaboratively transition wireless customer service without goal-oriented catalysts for change. Collaboratively.</p>
+                    <div class="download-btn d-flex align-items-center">
+                        <div class="google">
+                            <a type="button" class="btn btn-dark btn-lg" href="#">
+                                <i class="fab fa-android"></i> Google Play
+                            </a>
+                        </div>
+                        <div class="apple">
+                            <a type="button" class="btn btn-dark btn-lg" href="#">
+                                <i class="fab fa-apple"></i> App Store
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="download-hand-app">
+                        <img class="img-fluid" src="assets/img/others/download-app.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Download Section -->
+
+    <!-- Start Pricing Section -->
+    <section id="pricing_section">
+        <div class="container">
+            <div class="row text-center justify-content-center mb-5 pb-5">
+                <div class="col-md-7">
+                    <h2 class="mb-3">Affordable Pricing and Packages Choose your Best One</h2>
+                     <p class="heading-bottom-white">Distinctively brand cutting-edge imperatives through synergistic infrastructures customize low-risk high-yield processes rather than user friendly.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card pricing-table text-center">
+                        <div class="pricing-table-inner">
+                                <h3>Basic</h3>
+                            <img class="img-fluid" src="assets/shape/basic.svg" alt="">
+                            <div class="pricing-list">
+                                <ul>
+                                    <li>5 Users access same time</li>
+                                    <li>Integrated eCommerce</li>
+                                    <li>Customization interface</li>
+                                    <li>Weekly updated</li>
+                                    <li>24/7 Phone Support</li>
+                                    <li>Event Analytics</li>
+                                </ul>
+                            </div>
+                            <h2>$29</h2>
+                            <div class="purchase-btn">
+                                <a type="button" href="#">Purchase Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pricing-table pricing-table-active text-center">
+                        <div class="pricing-table-inner">
+                            <h3>Standard</h3>
+                        <img class="img-fluid" src="assets/shape/standard.svg" alt="">
+                        <div class="pricing-list">
+                            <ul>
+                                <li>5 Users access same time</li>
+                                <li>Integrated eCommerce</li>
+                                <li>Customization interface</li>
+                                <li>Weekly updated</li>
+                                <li>24/7 Phone Support</li>
+                                <li>Event Analytics</li>
+                            </ul>
+                        </div>
+                        <h2>$29</h2>
+                        <div class="purchase-btn">
+                            <a type="button" href="#">Purchase Now</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pricing-table text-center">
+                        <div class="pricing-table-inner">
+                            <h3>Unlimited</h3>
+                        <img class="img-fluid" src="assets/shape/unlimited.svg" alt="">
+                        <div class="pricing-list">
+                            <ul>
+                                <li>5 Users access same time</li>
+                                <li>Integrated eCommerce</li>
+                                <li>Customization interface</li>
+                                <li>Weekly updated</li>
+                                <li>24/7 Phone Support</li>
+                                <li>Event Analytics</li>
+                            </ul>
+                        </div>
+                        <h2>$29</h2>
+                        <div class="purchase-btn">
+                            <a type="button" href="#">Purchase Now</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-offer mt-4 text-center">
+                    <p>If you need custom services or Need more? <a href="#">Contact us</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Pricing Section -->
+
+    <!-- Start FAQ Section -->
+    <section id="faq_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button no-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <div class="icon">
+                                    <i class="fas fa-file-alt"></i>
+                                </div>
+                                <div class="heading">
+                                    <h6>Which license do I need?</h6>
+                                </div>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Uniquely leverage other's distinctive infomediaries rather than leveraged supply chains. Continually seize distributed collaboration and idea-sharing whereas user.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="icon">
+                                    <i class="fas fa-images"></i>
+                                </div>
+                                <div class="heading">
+                                    <h6>How do I get access to a theme?</h6>
+                                </div>
+                              </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                Rapidiously incentivize virtual e-commerce and exceptional e-tailers. Progressively network focused catalysts for change without orthogonal benefits. Dramatically empower.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <div class="icon">
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                                <div class="heading">
+                                    <h6>How do I see previous orders?</h6>
+                                </div>
+                              </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                Proactively monetize long-term high-impact innovation and scalable relationships. Dynamically mesh principle-centered functionalities before next-generation best practices. Distinctively empower.
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionExampleTwo">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button no-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                                <div class="icon">
+                                    <i class="fas fa-file-alt"></i>
+                                </div>
+                                <div class="heading">
+                                    <h6>Which license do I need?</h6>
+                                </div>
+                            </button>
+                          </h2>
+                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExampleTwo">
+                            <div class="accordion-body">
+                                Uniquely leverage other's distinctive infomediaries rather than leveraged supply chains. Continually seize distributed collaboration and idea-sharing whereas user.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="icon">
+                                    <i class="fas fa-images"></i>
+                                </div>
+                                <div class="heading">
+                                    <h6>How do I get access to a theme?</h6>
+                                </div>
+                              </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExampleTwo">
+                              <div class="accordion-body">
+                                Rapidiously incentivize virtual e-commerce and exceptional e-tailers. Progressively network focused catalysts for change without orthogonal benefits. Dramatically empower.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                                <div class="icon">
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                                <div class="heading">
+                                    <h6>How do I see previous orders?</h6>
+                                </div>
+                              </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExampleTwo">
+                              <div class="accordion-body">
+                                Proactively monetize long-term high-impact innovation and scalable relationships. Dynamically mesh principle-centered functionalities before next-generation best practices. Distinctively empower.
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End FAQ Section -->
+    
+    <!-- Start Testimonial Section -->
+    <section id="testimonial_section">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-lg-6">
+                    <h2>What Clients Say About Us</h2>
+                    <p>Rapidiously morph transparent internal or "organic" sources whereas resource sucking e-business. Conveniently innovate compelling internal.</p>
+                    <div class="testimonial-brand">
+                        <ul class="d-flex align-items-center">
+                            <li><a href="#">
+                                <img class="img-fluid" src="assets/img/brands/airbnb.png" alt="">
+                            </a></li>
+                            <li><a href="#">
+                                <img class="img-fluid" src="assets/img/brands/spotify.png" alt="">
+                            </a></li>
+                            <li><a href="#">
+                                <img class="img-fluid" src="assets/img/brands/paypal.png" alt="">
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="testimonial-slider">
+                        <div class="each-slider">
+                            <div class="profile-info mb-3 d-flex align-items-center">
+                                <div class="profile-img">
+                                    <img class="img-fluid" src="assets/img/others/client-1.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h4>Jhon Doe</h4>
+                                    <Span>Google</Span>
+                                </div>
+                            </div>
+                            <div class="words">
+                                <p>
+                                    <img src="assets/shape/quote.png" alt="">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus debitis, fugit laboriosam impedit doloribus dolore nemo vitae illo ipsam eos!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="each-slider">
+                            <div class="profile-info mb-3 d-flex align-items-center">
+                                <div class="profile-img">
+                                    <img class="img-fluid" src="assets/img/others/client-1.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h4>Trish Patani</h4>
+                                    <Span>Google</Span>
+                                </div>
+                            </div>
+                            <div class="words">
+                                <p>
+                                    <img src="assets/shape/quote.png" alt="">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus debitis, fugit laboriosam impedit doloribus dolore nemo vitae illo ipsam eos!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="each-slider">
+                            <div class="profile-info mb-3 d-flex align-items-center">
+                                <div class="profile-img">
+                                    <img class="img-fluid" src="assets/img/others/client-1.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h4>Nabil Siddik</h4>
+                                    <Span>Google</Span>
+                                </div>
+                            </div>
+                            <div class="words">
+                                <p>
+                                    <img src="assets/shape/quote.png" alt="">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus debitis, fugit laboriosam impedit doloribus dolore nemo vitae illo ipsam eos!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonial Section -->
+
+    <!-- Start Video Section -->
+    <section id="video_section">
+        <div class="inner-video-overlay text-center d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="video-icon d-flex align-items-center justify-content-center">
+                            <a class="video-popup" href="https://www.youtube.com/watch?v=Fkd9TWUtFm0"><i class="fas fa-play"></i></a>
+                        </div>
+                        <h4 class="mt-3">Watch video overlay</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Video Section -->
+
+    <!-- Start Team Section -->
+    <section id="team_section">
+        <div class="container">
+            <div class="row mb-5 justify-content-center text-center">
+                <div class="col-lg-7">
+                    <h2>Our Team Members</h2>
+                    <p>Following reasons show advantages of adding AppCo to your lead pages, foster market positioning products without demos and checkouts.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="persion-img">
+                        <div class="image">
+                            <img class="img-fluid" src="assets/img/team/team-4.jpg" alt="">
+                        </div>
+                        <div class="persion-img-overlay d-flex
+                        align-items-center justify-content-center">
+                            <div class="persion-info text-center">
+                                <h3>Edna Mason</h3>
+                                <span>Senior Designer</span>
+                                <div class="social-icon">
+                                    <ul class="mt-3 d-flex align-items-center justify-content-between">
+                                        <li><a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="fab fa-github-alt"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="fab fa-dribbble"></i>
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="persion-img">
+                        <div class="image">
+                            <img class="img-fluid" src="assets/img/team/team-1.jpg" alt="">
+                        </div>
+                        <div class="persion-img-overlay d-flex
+                        align-items-center justify-content-center">
+                            <div class="persion-info text-center">
+                                <h3>Edna Mason</h3>
+                                <span>Senior Developer</span>
+                                <div class="social-icon">
+                                    <ul class="mt-3 d-flex align-items-center justify-content-between">
+                                        <li><a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="fab fa-github-alt"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="fab fa-dribbble"></i>
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="persion-img">
+                        <div class="image">
+                            <img class="img-fluid" src="assets/img/team/team-2.jpg" alt="">
+                        </div>
+                        <div class="persion-img-overlay d-flex
+                        align-items-center justify-content-center">
+                            <div class="persion-info text-center">
+                                <h3>Jhon Doe</h3>
+                                <span>Senior Manager</span>
+                                <div class="social-icon">
+                                    <ul class="mt-3 d-flex align-items-center justify-content-between">
+                                        <li><a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="fab fa-github-alt"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="fab fa-dribbble"></i>
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="persion-img">
+                        <div class="image">
+                            <img class="img-fluid" src="assets/img/team/team-3.jpg" alt="">
+                        </div>
+                        <div class="persion-img-overlay d-flex
+                        align-items-center justify-content-center">
+                            <div class="persion-info text-center">
+                                <h3>Trisha Patani</h3>
+                                <span>Senior Marketer</span>
+                                <div class="social-icon">
+                                    <ul class="mt-3 d-flex align-items-center justify-content-between">
+                                        <li><a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="fab fa-github-alt"></i>
+                                        </a></li>
+                                        <li><a href="#">
+                                            <i class="fab fa-dribbble"></i>
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Team Section -->
+
+    <!-- Start Blog Section -->
+    <section id="blog_section">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-7">
+                    <h2>Our Latest News</h2>
+                    <p>Enthusiastically drive revolutionary opportunities before emerging leadership. Distinctively transform tactical methods of resource sucking core.</p>
+                </div>
+            </div>
+            <div class="row blog-slider">
+                <div class="col-lg-4">
+                    <div class="single-blog">
+                        <div class="card">
+                            <div class="featured-img">
+                                <img src="assets/img/blog/blog.jpg" alt="">
+                            </div>
+                            <div class="card-body px-3 py-4">
+                                <div class="blog-meta">
+                                    <ul class="vertically-middle mb-3">
+                                        <li>Jan 21, 2019</li>
+                                        <li> 45 Comments</li>
+                                        <li> 10 Share</li>
+                                    </ul>
+                                </div>
+                                <div class="blog-title">
+                                    <h5 class="mb-3">Appropriately productize fully</h5>
+                                </div>
+                                <div class="blog-description mb-4">
+                                    <p>Some quick example text to build on the card title and make up the bulk. Lorem ipsum dolor sit amet...</p>
+                                </div>
+                                <div class="blog-button">
+                                    <button data-bs-toggle="modal" data-bs-target="#single_blog_one" class="btn  form-control btn-danger" type="button">
+                                        Read More
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                    </button>
+                                </div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-blog">
+                        <div class="card">
+                            <div class="featured-img">
+                                <img src="assets/img/blog/blog2.jpg" alt="">
+                            </div>
+                            <div class="card-body px-3 py-4">
+                                <div class="blog-meta">
+                                    <ul class="vertically-middle mb-3">
+                                        <li>Jan 21, 2019</li>
+                                        <li> 45 Comments</li>
+                                        <li> 10 Share</li>
+                                    </ul>
+                                </div>
+                                <div class="blog-title">
+                                    <h5 class="mb-3">Appropriately productize fully</h5>
+                                </div>
+                                <div class="blog-description mb-4">
+                                    <p>Some quick example text to build on the card title and make up the bulk. Lorem ipsum dolor sit amet...</p>
+                                </div>
+                                <div class="blog-button">
+                                    <button class="btn  form-control btn-danger" type="button">
+                                        Read More
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-blog">
+                        <div class="card">
+                            <div class="featured-img">
+                                <img src="assets/img/blog/blog3.jpg" alt="">
+                            </div>
+                            <div class="card-body px-3 py-4">
+                                <div class="blog-meta">
+                                    <ul class="vertically-middle mb-3">
+                                        <li>Jan 21, 2019</li>
+                                        <li> 45 Comments</li>
+                                        <li> 10 Share</li>
+                                    </ul>
+                                </div>
+                                <div class="blog-title">
+                                    <h5 class="mb-3">Appropriately productize fully</h5>
+                                </div>
+                                <div class="blog-description mb-4">
+                                    <p>Some quick example text to build on the card title and make up the bulk. Lorem ipsum dolor sit amet...</p>
+                                </div>
+                                <div class="blog-button">
+                                    <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn  form-control btn-danger" type="button">
+                                        Read More
+                                        <i class="fas fa-arrow-circle-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Block Section -->
+    
+    <!-- Start Blog Modal Section -->
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog text-center modal-fullscreen modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLabel">10 Bes Features Of Our App</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-body">
+           <div class="row  justify-content-center">
+               <div class="col-lg-7">
+                <div class="modal-featured-img">
+                    <img src="http://wp.alithemes.com/html/flow/html-demo/assets/imgs/news/news-16.jpg" alt="">
+                </div>
+                <div class="single-blog-meta">
+                    <ul class="vertically-middle mb-3">
+                        <li>Jan 21, 2019</li>
+                        <li> 45 Comments</li>
+                        <li> 10 Share</li>
+                    </ul>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem sunt hic reiciendis eaque nemo, veniam voluptatum. Voluptatum, et aperiam sit aliquid accusantium iusto tempora, asperiores dolore placeat magnam culpa dolores selorum debitferendis aut ratione. Voluptas ipsum corporis ut dolore doloremque reprehenderit beatae, perferendis quasi! Quidem, nemo.</p>
+               </div>
+           </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- End Blog Modal Section -->
+
+    <!-- Start Contact Section -->
+    <section id="contact_section">
+        <div class="contact-inner-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="contact-info">
+                            <h2 class="mb-3">Contact With Us</h2>
+                            <p class="mb-4">It's very easy to get in touch with us. Just use the contact form or pay us a visit for a coffee at the office. Dynamically innovate competitive technology after an expanded array of leadership.</p>
+                            <div class="address">
+                                <div class="locatin mb-1 vertically-middle">
+                                    <div class="icon">
+                                        <i class="fas fa-location-arrow"></i>
+                                    </div>
+                                    <div class="office-location">
+                                        <span>121 King St, Melbourne VIC 3000, Australia</span>
+                                    </div>
+                                </div>
+                                <div class="phone mb-1 vertically-middle">
+                                    <div class="icon">
+                                        <i class="fa fa-phone"></i>
+                                    </div>
+                                    <div class="phone-number">
+                                        <span>+43 4 5676 9884</span>
+                                    </div>
+                                </div>
+                                <div class="email vertically-middle">
+                                    <div class="icon">
+                                        <i class="fa fa-envelope"></i>
+                                    </div>
+                                    <div class="email-address">
+                                        <span>nabilsiddik90@gmail.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="contact-form">
+                            <h4 class="mb-2">Reach us quickly</h4>
+                            <form action="" class="row">
+                                <div class="col-lg-6 mb-3">
+                                    <div class="form-group">
+                                        <input class="form-control form-control-lg" type="text" placeholder="Enter Name*">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-3">
+                                    <div class="form-group">
+                                        <input class="form-control form-control-lg" type="email" placeholder="Enter Email*">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-3">
+                                    <div class="form-group">
+                                        <input class="form-control form-control-lg" type="phone" placeholder="Your Phone">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-3">
+                                    <div class="form-group">
+                                        <input class="form-control form-control-lg" type="text" placeholder="Your Company">
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="form-group">
+                                        <textarea class="form-control form-control-lg" placeholder="Your Messege" name="" id="" cols="30" rows="5"></textarea>
+                                    </div>
+                                </div>
+                                <div class="submit-btn">
+                                    <input class="form-control form-control-lg" type="submit" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Start Company Section -->
+    <section id="company_section">
+        <div class="container">
+            <div class="row mb-5 text-center  justify-content-center">
+                <div class="col-lg-7">
+                    <h2 class="mb-3">Trusted by Companies</h2>
+                    <p>Rapidiously morph transparent internal or "organic" sources whereas resource sucking e-business. Conveniently innovate compelling internal.</p>
+                </div>
+            </div>
+            <div class="row brand-slider middle">
+                <div class="brand-logo">
+                    <img src="assets/img/brands/amazon.png" alt="">
+                </div>
+                <div class="brand-logo">
+                    <img src="assets/img/brands/paypal.png" alt="">
+                </div>
+                <div class="brand-logo">
+                    <img src="assets/img/brands/airbnb.png" alt="">
+                </div>
+                <div class="brand-logo">
+                    <img src="assets/img/brands/spotify.png" alt="">
+                </div>
+                <div class="brand-logo">
+                    <img src="assets/img/brands/shopbot.png" alt="">
+                </div>
+                <div class="brand-logo">
+                    <img src="assets/img/brands/slack.png" alt="">
+                </div>
+                <div class="brand-logo">
+                    <img src="assets/img/brands/stripe.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Company Section -->
+
+    <!-- Start Footer Section -->
+    <footer id="footer_section">
+        <div class="container">
+            <div class="row mb-5 text-center justify-content-center">
+                <div class="col-lg-7">
+                    <div class="newsletter-form">
+                        <form action="" class="middle">
+                            <input class="form-control form-control-lg" type="email" placeholder="info@yourdomain.com">
+                            <input class="btn btn-dark btn-lg" type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between footer-widget">
+                <div class="col-lg-4">
+                    <div class="footer-widget-one">
+                        <div class="footer-logo d-flex align-items-center">
+                            <span><img src="assets/img/logo/logo.png" alt=""></span>
+                            <span><h4>Apico</h4></span>
+                        </div>
+                        <p class="mt-3">Holisticly empower premium architectures without value-added ideas. Seamlessly evolve cross-platform experiences.</p>
+                        <div class="footer-social">
+                            <ul class="vertically-middle mt-3">
+                                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="footer-widget-two">
+                                <h4>Resources</h4>
+                                <ul>
+                                    <li><a href="#">Help</a></li>
+                                    <li><a href="#">Events</a></li>
+                                    <li><a href="#">Live support</a></li>
+                                    <li><a href="#">Open Source</a></li>
+                                    <li><a href="#">Documentation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="footer-widget-three">
+                                <h4>Company</h4>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Customers</a></li>
+                                    <li><a href="#">Community</a></li>
+                                    <li><a href="#">Our Team</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="footer-widget-four">
+                                <h4>Location</h4>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        121 King Melbourne Australia 3000
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-phone"></i>
+                                        +61 2 8376 6284
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-envelope"></i>
+                                        mail@example.com
+                                    </li>
+                                    <li><a href="https://www.productcrafts.com">
+                                        <i class="fas fa-globe"></i>
+                                        www.productcrafts.com
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row footer-bottom">
+                <div class="col-lg-6">
+                    <div class="copyright-text">
+                        <p>&copy; Apico App, All Right Reserved</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="footer-menu">
+                        <ul>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Security</a></li>
+                            <li><a href="#">Privacy Pollicy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- Scroll Top Button-->
+    <div class="scroll-top-btn">
+        <a class="btn btn-dark" href="#hero_area"><i class="fas fa-arrow-circle-up"></i></a>
+    </div>
+
+
+
+
+    <!-- jUst modal body -->
+     <!-- jUst modal body -->
+     <div id="modal" class="modal-body d-none">
+        <div class="">
+            <div class="row  justify-content-center">
+                <div class="col-lg-7 modal-container">
+                 <div class="modal-featured-img">
+                     <img src="http://wp.alithemes.com/html/flow/html-demo/assets/imgs/news/news-16.jpg" alt="">
+                 </div>
+                 <div class="single-blog-meta mt-3 mb-5 vertically-middle">
+                     <div class="category">
+                         <button class="btn btn-dark btn-sm">Tech</button>
+                     </div>
+                     <ul class="vertically-middle">
+                         <li>Jan 21, 2019</li>
+                         <li> 45 Comments</li>
+                         <li> 10 Share</li>
+                     </ul>
+                 </div>
+                 <div class="single-blog-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem sunt hic reiciendis eaque nemo, veniam voluptatum. Voluptatum, et aperiam sit aliquid accusantium iusto tempora, asperiores dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem sunt hic reiciendis eaque nemo, veniam voluptatum. Voluptatum, et aperiam sit aliquid</p>
+    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem sunt hic reiciendis eaque nemo, veniam voluptatum. Voluptatum, et aperiam sit aliquid accusantium iusto tempora, asperiores dolore placeat magnam culpa dolores selorum debitferendis aut ratione. Voluptas ipsum corporis ut dolore doloremque reprehenderit beatae, perferendis quasi! Quidem, nemo.</p>
+       
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem sunt hic reiciendis eaque nemo, veniam voluptatum. Voluptatum, et aperiam sit aliquid accusantium iusto tempora, asperiores dolore placeat magnam culpa dolores selorum debitferendis aut ratione. Voluptas ipsum corporis ut dolore doloremque reprehenderit beatae, perferendis quasi! Quidem, nemo.</p>
+    
+                    <div class="row three-col-img pb-5 mb-4">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="image">
+                                    <img src="https://images.pexels.com/photos/892757/pexels-photo-892757.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="image">
+                                    <img src="https://images.pexels.com/photos/2447046/pexels-photo-2447046.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="image">
+                                    <img src="https://images.pexels.com/photos/35969/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="each-block">
+                        <h3>Your Heading Should Goes Here</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem sunt hic reiciendis eaque nemo, veniam voluptatum. Voluptatum, et aperiam sit aliquid accusantium iusto tempora, asperiores dolore placeat magnam culpa dolores selorum debitferendis aut ratione. Voluptas ipsum corporis ut dolore doloremque reprehenderit beatae, perferendis quasi! Quidem, nemo.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem sunt hic reiciendis eaque nemo, veniam voluptatum. Voluptatum, et aperiam sit aliquid accusantium iusto tempora, asperiores dolore placeat magnam culpa dolores selorum debitferendis aut ratione. Voluptas ipsum corporis ut dolore doloremque reprehenderit beatae, perferendis quasi! Quidem, nemo.</p>
+                        <img src="http://wp.alithemes.com/html/flow/html-demo/assets/imgs/news/news-7.jpg" alt="">
+                    </div>
+    
+                    <div class="each-block">
+                        <h3>Your Heading Should Goes Here</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem sunt hic reiciendis eaque nemo, veniam voluptatum. Voluptatum, et aperiam sit aliquid accusantium iusto tempora, asperiores dolore placeat magnam culpa dolores selorum debitferendis aut ratione. Voluptas ipsum corporis ut dolore doloremque reprehenderit beatae, perferendis quasi! Quidem, nemo.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem sunt hic reiciendis eaque nemo, veniam voluptatum. Voluptatum, et aperiam sit aliquid accusantium iusto tempora, asperiores dolore placeat magnam culpa dolores selorum debitferendis aut ratione. Voluptas ipsum corporis ut dolore doloremque reprehenderit beatae, perferendis quasi! Quidem, nemo.</p>
+                        <div class="youtube-video">
+                            <iframe width="100%" height="600" src="https://www.youtube.com/embed/exfJf2YVdik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+ 
+  
+  
+    
+
+
+
+    <!--Link Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Link Fontawsome-->
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/brands.min.js"></script>
+    <script src="js/solid.min.js"></script>
+    <!--Link jQuery Plugins-->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/instafeed.min.js"></script>
+    <script src="js/waypoints-4.0.0.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <!--Link Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!--Link Main JS File-->
+    <script src="js/app.js"></script>
+</body>
+</html>

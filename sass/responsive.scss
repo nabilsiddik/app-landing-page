@@ -1,0 +1,64 @@
+
+
+
+/***** Start Medium Device ******/
+@media (max-width: 991px){
+
+  /** Full Body **/
+  h1{
+    font-size: 36px;
+  }
+  h2{
+    font-size: 32px;
+  }
+
+  /** Header Area **/
+  #header_area{
+    background: #4F3EA6;
+    .menu{
+      ul{
+          margin-top: 10px;
+      }
+      ul li{
+          margin: 0;
+          padding: 5px 8px;
+          border-radius: 2px;
+          transition: all 0.2s ease-out;
+      }
+      ul li:hover{
+          background: #3f308b;
+      }
+    }
+    ul ul{
+      opacity: 0;
+    }
+}
+
+  /** Promo Section **/
+  #promo_section{
+    
+    #promo_section .promo-box .each-box {
+      box-shadow: 0 1rem 3rem rgb(31 45 61 / 13%) !important;
+      padding: 45px;
+      border-radius: 1.5rem;
+      transition: all .3s ease-out;
+      margin-bottom: 20px;
+   }
+  }
+
+  
+}
+/***** End Medium Device ******/
+
+
+
+
+
+
+  
+  
+  @media (min-width: 1200px){
+    .container{
+      max-width: 1140px;
+    }
+  }

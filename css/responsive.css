@@ -1,0 +1,45 @@
+/***** Start Extra Small Device ******/
+/***** End Extra Small Device ******/
+/***** Start Small Device ******/
+/***** End Small Device ******/
+/***** Start Medium Device ******/
+@media (max-width: 991px) {
+  /** Full Body **/
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  /** Header Area **/
+  #header_area {
+    background: #4F3EA6;
+  }
+  #header_area .menu ul {
+    margin-top: 10px;
+  }
+  #header_area .menu ul li {
+    margin: 0;
+    padding: 5px 8px;
+    border-radius: 2px;
+    transition: all 0.2s ease-out;
+  }
+  #header_area .menu ul li:hover {
+    background: #3f308b;
+  }
+  /** Promo Section **/
+}
+
+/***** End Medium Device ******/
+/***** Start Large Device ******/
+/***** End Large Device ******/
+/***** Start Extra Large Device ******/
+/***** End Extra Large Device ******/
+/***** Start Extra Extra Large Device ******/
+/***** End Extra Extra Large Device ******/
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
